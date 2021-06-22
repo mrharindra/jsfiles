@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="ISO-8859-1">
+  <title>Insert title here</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.worker.min.js" type="text/javascript"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.min.js" type="text/javascript"></script>
+
+  <script src="https://raw.githubusercontent.com/mrharindra/jsfiles/main/printPlugin2.js" type="text/javascript">
+  </script>
+  <script src="https://raw.githubusercontent.com/mrharindra/jsfiles/main/OnlineEditor2.js" type="text/javascript">
+  </script>
+</head>
+
+<body>
+  Test print
+  <script>
+    function printPdf2() 
+	{
+		onPrint();
+	}	
+		
+  </script>
+
+
+  <div onclick="printPdfIfram();">print iframe</div>
+
+  <br/><br/>
+  <div onclick="printPdf2();">print ed</div>
+
+</body>
+
+</html>
